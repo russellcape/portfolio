@@ -6,7 +6,7 @@ const Banner = () => {
     // Add your particles configuration here (refer to the react-tsparticles documentation)
     background: {
       color: {
-        value: '#f0f0f0',
+        value: 'blue',
       },
     },
     particles: {
@@ -18,14 +18,14 @@ const Banner = () => {
         },
       },
       size: {
-        value: 3,
+        value: 10,
       },
       color: {
-        value: '#000000',
+        value: 'black',
       },
       line_linked: {
         enable: true,
-        color: '#000000',
+        color: 'black',
       },
       move: {
         speed: 1,
@@ -37,7 +37,7 @@ const Banner = () => {
     <div style={{ position: 'relative', width: '100%', height: '400px' }}>
       <Particles options={particlesOptions} />
       <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-        <h1 style={{ color: '#ffffff' }}>Your Banner Text</h1>
+        <h1 style={{ color: 'red' }}>Your Banner Text</h1>
       </div>
     </div>
   );
